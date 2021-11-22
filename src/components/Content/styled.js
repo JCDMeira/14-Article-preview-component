@@ -23,7 +23,7 @@ export const ContentDiv = styled.div`
   }
 
   .infoText {
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
     h1 {
       font-weight: bold;
       font-size: 1.65rem;
