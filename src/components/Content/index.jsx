@@ -1,7 +1,13 @@
 import React from 'react';
+
+// # component from styled-components
 import { ContentDiv } from './styled';
-import myImage from '../../assets/images/drawers.jpg';
+
+// # data
 import { UserCard } from '../UserCard';
+
+// # My images
+import myImage from '../../assets/images/drawers.jpg';
 
 function Content() {
   return (

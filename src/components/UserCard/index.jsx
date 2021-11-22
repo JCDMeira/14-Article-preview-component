@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import P from 'prop-types';
+
+// # component from styled-components
 import { Card } from './styled';
+
+// # data
 import users from '../../data/userData';
+
+// # My images
 import avatar from '../../assets/images/avatar-michelle.jpg';
 import icon from '../../assets/images/icon-share.svg';
 import iconClick from '../../assets/images/icon-share 2.svg';
