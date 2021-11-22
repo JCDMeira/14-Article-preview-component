@@ -8,7 +8,7 @@ export const Card = styled.div`
 
   display: flex;
   align-items: center;
-  img {
+  .avatar {
     width: 3.9rem;
     border-radius: 50%;
     margin-right: 1.6rem;
@@ -17,6 +17,7 @@ export const Card = styled.div`
   .text {
     display: flex;
     flex-direction: column;
+    margin-right: 5.9rem;
 
     h3 {
       font-weight: bold;
@@ -31,6 +32,27 @@ export const Card = styled.div`
       font-size: 1.35rem;
 
       color: var(--grayish-blue);
+    }
+  }
+
+  .myButton {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    box-shadow: 0px 1px 2px rgba(158, 175, 194, 0.25);
+    border-radius: 50%;
+    background: var(--light-grayish-blue);
+    display: flex;
+
+    button {
+      border: none;
+      background: rgba(0, 0, 0, 0);
+      width: 3.2rem;
+      height: 3.2rem;
+      img {
+        width: 1.5rem;
+        height: 1.3rem;
+      }
     }
   }
 `;
