@@ -50,4 +50,48 @@ export const ContentDiv = styled.div`
       color: var(--desaturated-dark-blue);
     }
   }
+
+  @media (min-width: 1024px) {
+    width: 73rem;
+    max-width: 73rem;
+    height: 28rem;
+    display: flex;
+
+    margin-top: 0.6rem;
+
+    .image {
+      width: 28.5rem;
+      height: 28rem;
+
+      border-radius: 10px 0px 0px 10px;
+
+      margin-bottom: 0rem;
+
+      overflow: hidden;
+
+      img {
+        width: 35.2rem;
+        height: 28rem;
+      }
+    }
+
+    .infoText {
+      width: 44.5rem;
+      height: 28rem;
+      margin-bottom: 0;
+      padding: 3.3rem 4.4rem 0 4rem;
+
+      h1 {
+      font-size: 2.05rem;
+      line-height: 2.8rem;
+
+      padding: 0;
+    }
+
+    p {
+      padding: 0 ;
+    }
+    }
+  }
+  }
 `;
