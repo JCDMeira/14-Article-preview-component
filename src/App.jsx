@@ -1,15 +1,14 @@
 import './Global.js';
 import React from 'react';
-import { GlobalStyle, Conteiner, Content } from './Global.js';
+import { GlobalStyle, Conteiner } from './Global.js';
+import { Content } from './components/Content/index';
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Conteiner>
-        <Content>
-          <h1>Hello world</h1>
-        </Content>
+        <Content />
       </Conteiner>
     </>
   );

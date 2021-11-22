@@ -31,11 +31,3 @@ export const Conteiner = styled.div`
   align-items: center;
   padding-bottom: 0.9rem;
 `;
-
-export const Content = styled.div`
-  width: 32.7rem;
-  height: 51.2rem;
-  background: var(--white);
-  box-shadow: (0px 6px 4px rgba(158, 175, 194, 0.25));
-  border-radius: 1rem;
-`;
