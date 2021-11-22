@@ -2,11 +2,16 @@ import styled from 'styled-components';
 
 export const ContentDiv = styled.div`
   width: 87.2vw;
+  max-width: 60rem;
   height: 51.2rem;
   background: var(--white);
   box-shadow: 0px 6px 4px rgba(158, 175, 194, 0.25);
   border-radius: 1rem;
   overflow: scroll;
+
+  position: relative;
+
+  margin: 0 auto;
 
   .image {
     width: 100%;
@@ -19,6 +24,7 @@ export const ContentDiv = styled.div`
 
     img {
       width: 87.2vw;
+      max-width: 60rem;
       height: 23.3rem;
     }
   }

@@ -5,12 +5,13 @@ export const Card = styled.div`
   height: 7.1rem;
   border-radius: 0 0 1rem 1rem;
 
-  /* padding: 1.2rem 3.1rem 1.6rem 3.2rem; */
   padding: 1.2rem 3.1rem 1.8rem 3.2rem;
 
   display: flex;
   align-items: center;
-  position: relative;
+
+  position: absolute;
+  bottom: 0;
 
   background: ${(props) =>
     props.isOpen ? 'var(--very-dark-grayish-blue)' : 'var(--white)'};
