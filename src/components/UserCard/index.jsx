@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import P from 'prop-types';
 import { Card } from './styled';
 import users from '../../data/userData';
@@ -10,7 +10,11 @@ import twitterIcon from '../../assets/images/icon-twitter.svg';
 import pintrestIcon from '../../assets/images/icon-pinterest.svg';
 
 function UserCard({ idCard }) {
-  const isOpen = true;
+  const [isOpen, setIsOpen] = useState(true);
+
+  function handleClick() {
+    setIsOpen(!isOpen);
+  }
   return (
     <Card isOpen={isOpen}>
       {isOpen === true ? (
@@ -33,7 +37,7 @@ function UserCard({ idCard }) {
       )}
 
       <div className="myButton">
-        <button>
+        <button onClick={() => handleClick()}>
           <img src={isOpen ? iconClick : icon} alt="share button" />
         </button>
       </div>
