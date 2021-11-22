@@ -77,7 +77,7 @@ export const ContentDiv = styled.div`
 
     .infoText {
       width: 44.5rem;
-      height: 28rem;
+      /* height: 28rem; */
       margin-bottom: 0;
       padding: 3.3rem 4.4rem 0 4rem;
 

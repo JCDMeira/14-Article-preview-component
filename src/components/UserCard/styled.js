@@ -87,6 +87,22 @@ export const Card = styled.div`
   }
 
   @media (min-width: 1024px) {
-    display: none;
+    width: 445px;
+    height: 84px;
+    position: relative;
+
+    padding: 1.2rem 3.1rem 1.8rem 4.1rem;
+
+    .avatar {
+      margin-right: 1.5rem;
+    }
+
+    p {
+      margin-left: 0.1rem;
+    }
+
+    .myButton {
+    right: 4rem;
+
   }
 `;
