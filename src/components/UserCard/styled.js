@@ -8,6 +8,7 @@ export const Card = styled.div`
 
   display: flex;
   align-items: center;
+  position: relative;
   .avatar {
     width: 3.9rem;
     border-radius: 50%;
@@ -43,6 +44,8 @@ export const Card = styled.div`
     border-radius: 50%;
     background: var(--light-grayish-blue);
     display: flex;
+    position: absolute;
+    right: 3.2rem;
 
     button {
       border: none;

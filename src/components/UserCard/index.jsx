@@ -6,6 +6,7 @@ import avatar from '../../assets/images/avatar-michelle.jpg';
 import icon from '../../assets/images/icon-share.svg';
 
 function UserCard({ idCard }) {
+  // const isOpen = false;
   return (
     <Card>
       <img className="avatar" src={avatar} alt="avatar photo" />
