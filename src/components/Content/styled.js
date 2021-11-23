@@ -51,7 +51,7 @@ export const ContentDiv = styled.div`
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 900px) {
     width: 73rem;
     max-width: 73rem;
     height: 28rem;
