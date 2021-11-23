@@ -24,22 +24,22 @@ function UserCard({ idCard }) {
   return (
     <Card isOpen={isOpen}>
       {isOpen === true ? (
-        <>
+        <div className="modal">
           <p className="share">SHARE</p>
           <div className="social">
             <img src={facebookIcon} alt="facebook icon" />
             <img src={twitterIcon} alt="twitter icon" />
             <img src={pintrestIcon} alt="pintrest Icon" />
           </div>
-        </>
+        </div>
       ) : (
-        <>
+        <div className="modal">
           <img className="avatar" src={avatar} alt="avatar photo" />
           <div className="text">
             <h3>{users[idCard].username}</h3>
             <p>{users[idCard].creationData}</p>
           </div>
-        </>
+        </div>
       )}
 
       <div className="myButton">

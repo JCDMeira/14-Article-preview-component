@@ -53,6 +53,9 @@ export const Card = styled.div`
     color: var(--white);
   }
 
+  .modal{
+    display: flex;
+  }
   .social {
     width: 9.2rem;
     display: flex;
@@ -103,6 +106,8 @@ export const Card = styled.div`
 
     .myButton {
     right: 4rem;
+   }
 
-  }
+
+
 `;
