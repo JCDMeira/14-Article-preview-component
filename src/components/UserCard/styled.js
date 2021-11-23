@@ -53,8 +53,12 @@ export const Card = styled.div`
     color: var(--white);
   }
 
+  .modal-none{
+    display: ${(props) => (props.isOpen === false ? 'flex' : 'none')};
+  }
   .modal{
-    display: flex;
+    position: absolute;
+    display: ${(props) => (props.isOpen === true ? 'flex' : 'none')};
   }
   .social {
     width: 9.2rem;
@@ -96,6 +100,7 @@ export const Card = styled.div`
 
     padding: 1.2rem 3.1rem 1.8rem 4.1rem;
 
+    background: var(--white);
     .avatar {
       margin-right: 1.5rem;
     }
@@ -108,6 +113,42 @@ export const Card = styled.div`
     right: 4rem;
    }
 
+   .modal-none{
+    display: flex;
+  }
 
+   .modal{
+    position: absolute;
+    right: -6.9rem;
+    top: -6.1rem;
+    width: 24.8rem;
+    height: 5.5rem;
+
+    background: #48556A;
+    border-radius: 10px;
+    display: ${(props) => (props.isOpen === true ? 'flex' : 'none')};
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* clip-path: path("M0 10C0 4.47715 4.47715 0 10 0H238C243.523 0 248 4.47715 248 10V45C248 50.5228 243.523 55 238 55H136.5H112H10C4.47715 55 0 50.5228 0 45V10Z" fill="#48556A"/>
+    <path d="M112 55L116.342 60.0966C120.175 64.5973 127.056 64.8071 131.157 60.5483L136.5 55H112Z" fill="#48556A"/>
+    <path d="M112 55L116.342 60.0966C120.175 64.5973 127.056 64.8071 131.157 60.5483L136.5 55H112Z" fill="#48556A"/>
+    <path d="M112 55L116.342 60.0966C120.175 64.5973 127.056 64.8071 131.157 60.5483L136.5 55H112Z"); */
+
+    :before {
+    border-top: 19px solid #48556a;
+    border-bottom: 15px solid transparent;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    top: 49px;
+    left: 107px;
+  }
+
+  }
 
 `;

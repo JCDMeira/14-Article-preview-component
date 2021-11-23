@@ -59,6 +59,7 @@ export const ContentDiv = styled.div`
 
     margin-top: 0.6rem;
 
+    overflow: visible;
     .image {
       width: 28.5rem;
       height: 28rem;
