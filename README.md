@@ -27,7 +27,6 @@ Users should be able to:
 
 ## Screenshot
 
-<!--
 ### Mobile design
 
 <p  align="center">
@@ -42,7 +41,7 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-### result of my work
+<!--### result of my work
 
 <p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
 
@@ -63,36 +62,19 @@ Users should be able to:
 
 ### What I learned
 
-<!--
-Using the grid template areas to define occupied spaces with an alias
+it is possible to make a modal appear according to the use of a state.
 
-```CSS
-  .content {
-  display: grid;
-  gap: 0;
-  grid-template-areas:
-    'field1'
-    'field2'
-    'field3';
-}
-
-.field1 {
-  grid-area: field1;
-}
-.field2 {
-  grid-area: field2;
-}
-.field3 {
-  grid-area: field3;
-}
-@media (min-width: 900px) {
-  .content {
-    grid-template-areas:
-      'field1 field1'
-      'field2 field3';
+```JS
+export const Card = styled.div`
+.modal-none{
+    display: ${(props) => (props.isOpen === false ? 'flex' : 'none')};
   }
-}
-``` -->
+  .modal{
+    position: absolute;
+    display: ${(props) => (props.isOpen === true ? 'flex' : 'none')};
+  }
+  `;
+```
 
 ### Useful resources
 
