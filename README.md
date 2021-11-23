@@ -30,16 +30,16 @@ Users should be able to:
 ### Mobile design
 
 <p  align="center">
-  <img width="300px" src="./presentation/mobile.png" align="center"></img>
+  <img width="300px" src="./presentation/mobile.gif" align="center"></img>
 </p>
 
 ### Tablets design
 
-<p  align="center"><img width="420px"  src="./presentation/i-pad.png" align="center"></img></p>
+<p  align="center"><img width="420px"  src="./presentation/ipad.gif" align="center"></img></p>
 
 ### Desktop design
 
-<p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
+<p  align="center"><img width="720px" src="./presentation/desktop.gif" align="center"></img></p>
 
 <!--### result of my work
 
