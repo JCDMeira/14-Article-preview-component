@@ -137,7 +137,7 @@ export const Card = styled.div`
     <path d="M112 55L116.342 60.0966C120.175 64.5973 127.056 64.8071 131.157 60.5483L136.5 55H112Z"); */
 
     :before {
-    border-top: 19px solid #48556a;
+    border-top: 19px solid var(--very-dark-grayish-blue);
     border-bottom: 15px solid transparent;
     border-left: 17px solid transparent;
     border-right: 17px solid transparent;
